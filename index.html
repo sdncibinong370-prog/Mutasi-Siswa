@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Form Pendataan Siswa Pindahan</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+
+<h1>SD NEGERI CIBINONG 03</h1>
+
+<h2>FORMULIR PENDATAAN SISWA PINDAHAN</h2>
+
+<form id="formMutasi">
+
+<input type="text" placeholder="Nama Lengkap" id="nama" required>
+
+<input type="text" placeholder="NIK" id="nik" required>
+
+<input type="text" placeholder="NISN" id="nisn">
+
+<input type="text" placeholder="Tempat Lahir" id="tempat">
+
+<input type="date" id="tanggal">
+
+<select id="jk">
+<option>Laki-laki</option>
+<option>Perempuan</option>
+</select>
+
+<input type="text" placeholder="Agama" id="agama">
+
+<input type="text" placeholder="Kelas yang Dituju" id="kelas">
+
+<input type="text" placeholder="Nama Sekolah Asal" id="sekolah">
+
+<textarea placeholder="Alamat Lengkap" id="alamat"></textarea>
+
+<input type="text" placeholder="Nama Ayah" id="ayah">
+
+<input type="text" placeholder="Nama Ibu" id="ibu">
+
+<input type="text" placeholder="Nomor HP Orang Tua" id="hp">
+
+<textarea placeholder="Alasan Pindah" id="alasan"></textarea>
+
+<button type="submit">
+KIRIM DATA
+</button>
+
+</form>
+
+<div id="hasil"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
